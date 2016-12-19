@@ -1,0 +1,366 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #d9d9d9;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+	background-color: #d9d9d9;
+}
+
+#head_wrap{
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 5px solid #ff3333;
+	padding: 10px;
+	background: #ff6666;
+
+	/*margin-top: -120px;*/
+
+}
+
+#head_wrap:hover{
+	/*margin-top: 0px;*/
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#header{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+}
+
+#img{
+	height: 100px;
+	z-index: -1;
+	-webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    transition: all 5s ease;
+}
+/*#img:hover{
+	height: 90px;
+}*/
+.image{
+	position: relative;
+}
+.image h3{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 50px;
+	font-variant: small-caps;
+	color: #333333;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;   
+	font-size: 150%; 
+    -webkit-transition: margin 3s ease;
+    -moz-transition: margin 3s ease;
+    -o-transition: margin 3s ease;
+    -ms-transition: margin 3s ease;
+    transition: margin 3s ease;
+
+    text-shadow: 2px 2px 5px red;
+}
+/*.image h3:hover{
+	margin-left: -25px;
+}*/
+#search{
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #607d8b;
+}
+#submit{
+	padding: 10px;
+	background-color: #607d8b;
+	border: 1px solid #607d8b;
+	color: white;
+	margin-left: -5px;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #333;
+	transition: all 0.5s;
+}
+#form1{
+	float: right;
+	line-height: 100px;
+}
+#menu{
+	background-color: ;
+	line-height: 100px;
+	margin-top: 1px;
+}
+#menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px;
+	background-color: darkviolet;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#menu a:hover{
+	background-color: goldenrod;
+}
+#menu img{
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#left{
+	min-width: 100px;
+	min-height: 1000px;
+	height: 1000px;
+	width: 200px;
+	padding: 10px;
+/*	background-image: url(../images/woodw.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	border-right: 5px solid red;
+	background-color: orange;*/
+	float: left;
+}
+#lcont{
+	margin-top: 20px;
+}
+#lcont button{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: crimson;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#lcont button:hover{
+	box-shadow: 5px 5px 10px black;
+}
+#lcont a{
+	text-decoration: none;
+	color: black;
+}
+
+#poster{
+	height: 100%;
+	width: 600px;
+	margin-top: 15px;
+	margin-left: 300px;
+	text-align: left;
+	padding: 10px;
+}
+#form2{
+	background-color: blue;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 24px;
+	background-image: url(../images/avb30683913e5bb915b3d.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	border: 2px solid silver;
+	border-radius: 10px;
+}
+.Q{
+	resize: none;
+	width: 500px;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: top;
+	border-radius: 5px;
+}
+.D{
+	resize: none;
+	width: 500px;
+	height: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#P{
+	width: 505px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: crimson;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#posts{
+	height: 100%;
+	width: 600px;
+	margin-top: 0px;
+	margin-left: 300px;
+	text-align: center;
+	padding: 10px;
+}
+#selector{
+	background-color: violet;
+	padding: 10px;
+	border: 2px solid silver;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	background-image: url(../images/avb30683913e5bb915b3d.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	/*
+	box-shadow: 10px 10px 20px #888888;
+	*/
+}
+#selector:hover{
+	box-shadow: 0px 0px 0px #888888;
+}
+#qt{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: gold; 
+	text-shadow: 2px 2px 5px red;
+	cursor: pointer;
+}
+#qt a{
+	text-decoration: none;
+	color: black;
+}
+/*
+#qt:hover{
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px blue;
+}
+*/
+#det{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-color: goldenrod; 
+}
+#ans{
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	padding-left: 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	background-color: white;
+	border: 1px solid black; 
+
+	/*transition-duration: 5s;*/
+
+}
+/*#ans:hover{
+	
+	background-image: url(../images/thumbs.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+#ext{
+	text-align: left;
+}
+#vot{
+	float: right;
+}
+#thumby{
+	text-align: left;
+	height: 25px;
+	cursor: pointer;
+
+}
+
+#like{
+	float: left;
+	background-color: aqua;
+	border: 1px solid black;
+	border-radius: 1px;
+	cursor: pointer;
+}
+/*
+#ansbut{
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	width: 100%;
+	height: 40px;
+	background-color: crimson;
+	border: 1px solid black; 
+	cursor: pointer;
+}
+#ansbut:hover{
+	box-shadow: 5px 5px 10px black;
+}
+.anstxt{
+	resize: none;
+	float: left;
+	width: 99%;
+	height: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	margin-top: -25px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    text-align: left;
+
+    line-height: 30px;
+
+    
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#txtHint{
+	text-decoration: none;
+}

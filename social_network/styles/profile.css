@@ -1,0 +1,465 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #d9d9d9;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+	background-color: #d9d9d9;
+}
+
+#head_wrap{
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 5px solid #ff3333;
+	padding: 10px;
+	background: #ff6666;
+
+	/*margin-top: -120px;*/
+
+	-webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+/*#head_wrap:hover{
+	margin-top: 0px;
+}*/
+
+#header{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+}
+
+#img{
+	height: 100px;
+	z-index: -1;
+	-webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    transition: all 5s ease;
+}
+/*#img:hover{
+	height: 90px;
+}*/
+.image{
+	position: relative;
+}
+.image h3{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 50px;
+	font-variant: small-caps;
+	color: #333333;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;   
+	font-size: 150%; 
+    -webkit-transition: margin 3s ease;
+    -moz-transition: margin 3s ease;
+    -o-transition: margin 3s ease;
+    -ms-transition: margin 3s ease;
+    transition: margin 3s ease;
+
+    text-shadow: 2px 2px 5px red;
+}
+/*.image h3:hover{
+	margin-left: -25px;
+}*/
+#search{
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #607d8b;
+}
+#submit{
+	padding: 10px;
+	background-color: #607d8b;
+	border: 1px solid #607d8b;
+	color: white;
+	margin-left: -5px;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #333;
+	transition: all 0.5s;
+}
+#form1{
+	float: right;
+	line-height: 100px;
+}
+#menu{
+	background-color: ;
+	line-height: 100px;
+	margin-top: 1px;
+}
+#menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px;
+	background-color: darkviolet;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#menu a:hover{
+	background-color: goldenrod;
+}
+#menu img{
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+@media only screen and (min-width: 1240px){
+#content_wrap{
+	width: 100%;
+	height: 720px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: white;
+
+	background-image: url(../images/redsilk.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+	overflow: hidden;
+	min-width: 900px;
+	min-height: 600px;
+}
+
+#content_wrap div{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#content{
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-left: 100px;
+	float: left;
+	background-color: red;
+	
+	background-image: url(../images/brown.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+	width: 300px;
+	padding: 20px;
+	border: 10px solid transparent;
+	border-radius: 20px;
+
+	color: white;	
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+}
+/*#profilepic{
+	height: 200px;
+	width: 150px;
+	border: 10px solid transparent;
+	border-radius: 5px;
+	padding:5px;
+
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#profilepic:hover{
+	height: 250px;
+	width: 200px;
+}*/
+#pic{
+	height: 250px;
+	width: 250px;
+	border: 1px;
+	border-radius: 5px;
+
+
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#pic:hover{
+	height: 250px;
+	width: 250px;
+	opacity: 0.5;
+}
+
+.f1{
+	border-style:solid;
+	border-width:thin;
+	border-color:#00CCFF;
+	padding:5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#b1{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:thin;
+	border-color:#00CCFF;
+	padding:5px;
+	background-color:#00CCFF;
+	height: 34px;
+	cursor: pointer;
+}
+
+#profile{
+	/*float: right;*/
+	margin-top: 100px;
+	margin-right: 100px;
+	overflow: hidden;
+	border: 2px dashed orange;
+	background-color: blue;
+
+	background-image: url(../images/brown.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+	width: 600px;
+	text-align: center;
+	padding: 20px;
+	border: 10px solid transparent;
+	border-radius: 20px; 
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+}
+#profile h3{
+	padding: 10px;
+	font-size: 120%;
+	border: 5px solid goldenrod;
+	text-align: center;
+	color: white;
+}
+#right{
+	margin-top: 20px;
+}
+#right h4{
+	padding: 20px;
+	display: block;
+}
+#right i{
+	padding: 10px;
+	color: white;
+}
+#right b{
+	padding: 10px;
+	border: thin solid gold;
+	background-color: white;
+	text-align: center;
+}
+}
+
+@media only screen and (max-width: 1240px){
+/*#header{
+	margin: 0 auto;
+	width: 560px;
+	height: 100px;
+}*/
+
+#content_wrap{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: white;
+
+	background-image: url(../images/redsilk.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+	overflow: hidden;
+	min-width: 560px;
+	min-height: 600px;
+}
+
+#content{
+	clear: both;
+	overflow: hidden;
+	margin: 25px auto;
+/*	margin-top: 100px;
+	margin-left: 100px;
+	float: left;
+*/	
+	background-color: red;
+	
+	background-image: url(../images/brown.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+	width: 300px;
+	padding: 20px;
+	border: 10px solid transparent;
+	border-radius: 20px;
+
+	color: white;	
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+}
+/*#profilepic{
+	height: 200px;
+	width: 150px;
+	border: 10px solid transparent;
+	border-radius: 5px;
+	padding:5px;
+
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#profilepic:hover{
+	height: 250px;
+	width: 200px;
+}*/
+#pic{
+	height: 200px;
+	width: 150px;
+	border: 1px;
+	border-radius: 5px;
+
+
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#pic:hover{
+	height: 250px;
+	width: 200px;
+}
+
+.f1{
+	border-style:solid;
+	border-width:thin;
+	border-color:#00CCFF;
+	padding:5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#b1{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:thin;
+	border-color:#00CCFF;
+	padding:5px;
+	background-color:#00CCFF;
+	height: 34px;
+	cursor: pointer;
+}
+
+#profile{
+	/*float: right;
+	margin-top: 100px;
+	margin-right: 100px;
+	*/
+
+	margin: 25px auto;
+	overflow: hidden;
+	border: 2px dashed orange;
+	background-color: blue;
+
+	background-image: url(../images/brown.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+	width: 600px;
+	text-align: center;
+	padding: 20px;
+	border: 10px solid transparent;
+	border-radius: 20px; 
+
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+}
+#profile h3{
+	padding: 10px;
+	font-size: 120%;
+	border: 5px solid goldenrod;
+	text-align: center;
+	color: white;
+}
+#right{
+	margin-top: 20px;
+}
+#right h4{
+	padding: 20px;
+	display: block;
+}
+#right i{
+	padding: 10px;
+	color: white;
+}
+#right b{
+	padding: 10px;
+	border: thin solid gold;
+	background-color: white;
+	text-align: center;
+}
+}
+
+
+#footer{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	background: #ff6666;
+	border-top: 5px solid #ff3333;
+	clear: both;
+}
+#footer h2{
+	text-align: center;
+	padding-top: 3px;
+	color: black;
+	font-family: "Times New Roman", Georgia, serif;
+}
