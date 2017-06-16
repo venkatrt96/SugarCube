@@ -1,3 +1,2 @@
 # SugarCube
-A Mini Social Network 
-With Q&As Section
+A PHP powered interactive Q&As Section
